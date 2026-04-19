@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-4">
+
+<h3>🔐 Login</h3>
+
+<form onsubmit="login(); return false;">
+<input type="email" id="email" class="form-control mb-2" placeholder="Email" required>
+<input type="password" id="password" class="form-control mb-2" placeholder="Password" required>
+
+<button class="btn btn-success w-100">Login</button>
+</form>
+
+<script>
+function login() {
+let e = document.getElementById("email").value;
+let p = document.getElementById("password").value;
+
+let storedEmail = localStorage.getItem("email");
+let storedPass = localStorage.getItem("password");
+
+if(e === storedEmail && p === storedPass) {
+localStorage.setItem("loggedIn", true);
+alert("✅ Login Successful");
+} else {
+alert("❌ Invalid Credentials");
+}
+}
+</script>
+
+</body>
+</html>

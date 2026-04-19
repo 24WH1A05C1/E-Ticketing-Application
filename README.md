@@ -45,11 +45,11 @@ E-Ticketing Application/
 │── logout.html
 │── eticket.css
 │── outputs/
-│    ├── Registration.png
-│    ├── Login.png
-│    ├── Booking.png
-│    ├── MyTickets.png
-│    ├── Logout.png
+│    ├── registration.png
+│    ├── login.png
+│    ├── booking.png
+│    ├── myTickets.png
+│    ├── logout.png
 │── README.md
 ```
 
@@ -59,31 +59,32 @@ E-Ticketing Application/
 
 ### 📝 Registration Page
 
-![Registration Page](outputs/Registration.png)
+![Registration Page](outputs/registration.png)
 
 ---
 
 ### 🔑 Login Page
 
-![Login Page](outputs/Login.png)
+![Login Page](outputs/login.png)
 
 ---
 
 ### 🎫 Ticket Booking Page
 
-![Booking Page](outputs/Booking.png)
+![Booking Page 1](outputs/booking1.png)
+![Booking Page 2](outputs/booking2.png)
 
 ---
 
 ### 📄 My Tickets Page
 
-![My Tickets Page](outputs/MyTickets.png)
+![My Tickets Page](outputs/mytickets.png)
 
 ---
 
 ### 🚪 Logout Page
 
-![Logout Page](outputs/Logout.png)
+![Logout Page](outputs/logout.png)
 
 ---
 
